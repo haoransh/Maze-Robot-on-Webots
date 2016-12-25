@@ -1,0 +1,2105 @@
+#VRML_SIM V8.5 utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.16663409 -0.96414289 -0.20654675 1.669362
+  position -3.9747082 1.5953267 -1.3316072
+  follow "e-puck"
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0 -1 0
+  intensity 0.2
+  castShadows TRUE
+}
+Floor {
+  size 3 3
+  texture [
+    "textures/steel_floor.jpg"
+  ]
+  filtering FALSE
+}
+DEF WALL_3_Solid Solid {
+  translation -1.1149513 0.05 0.65643912
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -1.0448583 0.05 -0.37965346
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.20117224 0.05 -1.3505432
+  rotation 0 1 0 4.712389
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.18818342 0.05 -1.2420621
+  rotation 0 1 0 4.712389
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.96747892 0.05 -0.92543793
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.90156523 0.05 -0.032689139
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -1.3013586 0.05 0.22670724
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.83391559 0.05 0.65650345
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.51343964 0.05 1.2228498
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -1.0438865 0.05 -0.97188432
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.34179217 0.05 0.71670103
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -1.0178048 0.05 1.2116596
+  rotation 0 1 0 4.712389
+  scale 1.2 1.2 1.2
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.15859978 0.05 0.6907425
+  scale 1.2 1.2 1.2
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.264334 0.05 1.2461644
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.49065188 0.05 0.23332565
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.48947805 0.05 -0.35159209
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.065131748 0.05 -0.068015744
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.4879768 0.05 -0.94316834
+  rotation 1 0 0 6.2831853
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.057547207 0.05 -0.94739038
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.50932498 0.05 0.13177664
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.50555524 0.05 -1.1440563
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.5601417 0.05 -0.92895328
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.76737702 0.05 -0.76281303
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.08 0.05 0.29
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.75854404 0.05 1.282357
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.41
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.38533935 0.05 -0.64262116
+  scale 1.1 1.1 1.1
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.54
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_1_Solid Solid {
+  translation 0.45442746 0.05 1.1874629
+  scale 1.1 1.1 1.1
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.63184207 0.05 -0.27867038
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.3466157 0.05 -0.89966068
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.07 0.05 -0.07
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.90035009 0.05 -1.2525604
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.23995964 0.05 -0.56909654
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.22 0.05 -0.21
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.1825602 0.05 -1.1455629
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.3722008 0.05 -1.3033796
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.3559195 0.05 -1.007721
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.1954045 0.05 -0.85888348
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.3605413 0.05 -0.71830488
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.1845239 0.05 -0.56289237
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.83656494 0.05 -0.023644122
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.01 0.05 0.22867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.82341741 0.05 -0.15646475
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.97079172 0.05 1.0958866
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.9767673 0.05 1.2298575
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.28 0.05 0.36867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.0380534 0.05 -0.63661919
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.43 0.05 0.08867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.6615279 0.05 -0.27067872
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.3058439 0.05 0.52748114
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.4272826 0.05 -0.79946591
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.15 0.05 0.08867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.97183912 0.05 -0.74146325
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.30116328 0.05 -0.35196043
+  rotation 0 1 0 6.2831853
+  scale 1.2 1.2 1.2
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.84191864 0.05 0.37354904
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.29 0.05 0.22867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.007007 0.05 0.051222941
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.97928747 0.05 0.37322093
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.15 0.05 0.36867
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.96483089 0.05 0.51198051
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.14 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_3_Solid Solid {
+  translation -0.35 0.05 0.3
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.67197177 0.05 -0.26436535
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.62708855 0.05 0.8285021
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.42899062 0.05 1.1019744
+  scale 1.3 1.3 1.3
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.0431296 0.05 0.44804261
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.22185611 0.05 0.30051065
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.099712558 0.05 -1.2928024
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.14030825 0.05 1.0123577
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.90762659 0.05 1.1652875
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.0430267 0.05 1.1644781
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.22 0.05 -0.28
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.76468545 0.05 -0.3543056
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.088297662 0.05 -0.27953323
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.0773035 0.05 -1.2956984
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.71544513 0.05 -1.4204177
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.3655194 0.05 -0.57552552
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.14
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_1_Solid Solid {
+  translation -1.3384201 0.05 -0.082516912
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -1.0597412 0.05 -0.08456029
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.63716959 0.05 -1.1372099
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.0746489 0.05 -1.2185395
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.3727308 0.05 0.18473391
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.35 0.05 -0.34
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.0010374551 0.05 -0.790228
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.3547909 0.05 -1.0495922
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.0084243153 0.05 1.4881556
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 3 0.1 0.01
+      }
+    }
+  ]
+  boundingObject Box {
+    size 3 0.1 0.01
+  }
+}
+DEF WALL_1_Solid Solid {
+  translation -0.97796298 0.05 0.36486043
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.36122501 0.05 1.2922418
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.12054811 0.05 1.2820047
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.36878864 0.05 1.0808631
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.58120929 0.05 0.73689523
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.68687122 0.05 0.56318346
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.01945345 0.05 0.93819066
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.014650896 0.05 0.50148053
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.79057798 0.05 0.083937295
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation -0.9681958 0.05 0.94699943
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.62492214 0.05 -0.15368514
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.221146 0.05 -0.49477429
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.29254797 0.05 1.014452
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.61428003 0.05 -1.0407133
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.2174407 0.05 0.94075777
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.63783685 0.05 0.53141458
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.2597471 0.05 -0.098924114
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.87587645 0.05 -0.84369584
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.7683203 0.05 0.89513349
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.21 0.05 0.09
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 1.3547691 0.05 0.62712766
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.32338306 0.05 -1.0475669
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_1_Solid Solid {
+  translation 0.75918107 0.05 -1.3513417
+  children [
+    DEF MAZE_WALL Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.28 0.1 0.01
+      }
+    }
+  ]
+  boundingObject USE MAZE_WALL
+}
+DEF WALL_2_Solid Solid {
+  translation -0.012080992 0.05 -1.5040036
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 3 0.1 0.01
+      }
+    }
+  ]
+  boundingObject Box {
+    size 3 0.1 0.01
+  }
+}
+DEF WALL_3_Solid Solid {
+  translation 0.59898419 0.05 1.4252456
+  scale 1.2 1.2 1.2
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.2041931 0.05 -0.69642755
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.89907013 0.05 0.69360814
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.77186698 0.05 0.18424991
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.62128398 0.05 0.17817109
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.2973745 0.05 -0.29604806
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.33176429 0.05 -0.71116171
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.36 0.05 0.03
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.4
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.77006671 0.049999998 -1.1136846
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.237718 0.049999998 0.041593624
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 0.21 0.049999998 -0.2
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.21870183 0.049999999 -0.055906638
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.3
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.3107364 0.049999999 -1.3375892
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.3
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.92545368 0.050000002 0.053176207
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation -0.22 0.050000002 0.23
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_3_Solid Solid {
+  translation 1.0854916 0.050000002 -0.63725559
+  rotation 1 0 0 3.1415926
+  children [
+    DEF MA Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 0.28
+      }
+    }
+  ]
+  boundingObject USE MA
+}
+DEF WALL_4_Solid Solid {
+  translation 1.4937419 0.05 -0.0010975198
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 3
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.01 0.1 3
+  }
+}
+DEF WALL_4_Solid Solid {
+  translation -1.5031584 0.05 -0.0026103086
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.5 0.4
+        }
+      }
+      geometry Box {
+        size 0.01 0.1 2
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.01 0.1 2
+  }
+}
+DirectionalLight {
+  direction 0 1 0
+}
+E-puck {
+  translation -1.3871881 -3.1977663e-05 -1.4602312
+  rotation -9.589793e-09 1 -9.589793e-09 4.712389
+  controller "maze_controller"
+  turretSlot [
+    Compass {
+    }
+    SpotLight {
+      ambientIntensity 1
+      direction 0 1 -1
+      castShadows TRUE
+    }
+  ]
+}
